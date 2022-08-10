@@ -29,12 +29,12 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=457;C++;0;EUTF-8;1;1;0;%2Fhome%2Fgaspar%2FEscritorio%2Fproyectos-cpp%2Flinkedin-learning%2Fch03%2FPatito%2Fclases.cpp;0;4
-FILE_NAME_1=328;C++;0;EUTF-8;1;1;0;%2Fhome%2Fgaspar%2FEscritorio%2Fproyectos-cpp%2Flinkedin-learning%2Fch03%2FPatito%2Fcow.h;0;4
+FILE_NAME_0=309;C++;0;EUTF-8;1;1;0;%2Fhome%2Fgaspar%2FEscritorio%2Fproyectos-cpp%2Flinkedin-learning%2Fch03%2FPatito%2Fclases.cpp;0;4
+FILE_NAME_1=102;C++;0;EUTF-8;1;1;0;%2Fhome%2Fgaspar%2FEscritorio%2Fproyectos-cpp%2Flinkedin-learning%2Fch03%2FPatito%2Fcow.h;0;4
 FILE_NAME_2=228;C++;0;EUTF-8;1;1;0;%2Fhome%2Fgaspar%2FEscritorio%2Fproyectos-cpp%2Flinkedin-learning%2Fch03%2FPatito%2Fcow.cpp;0;4
 
 [VTE]
-last_dir=/home/gaspar/Escritorio/proyectos-cpp/linkedin-learning/ch03
+last_dir=/home/gaspar/Escritorio/proyectos-cpp
 
 [build-menu]
 C++FT_01_LB=_Build

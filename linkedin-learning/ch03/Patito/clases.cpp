@@ -4,37 +4,26 @@
 
 using namespace std;
 
-/*
-enum cow_purpuse{dairy, meat, hide, pet};
-
-class Cow{
-private:
-	string name;
-	int age;
-	unsigned char purpose;
-public:
-	Cow(string name, int age, unsigned char purpose){
-		this->name = name;
-		this->age = age;
-		this->purpose = purpose;
-	}
-	string getName(){
-		return name;
-	}
-	int getAge(){
-		return age;
-	}
-	unsigned char getPurpose(){
-		return purpose;
-	}
-	
-};
-*/
 //build: g++ -Wall -o "%e" "%f"
 //https://www.youtube.com/watch?v=KRAHce3zewM
 int main(){
+    //ptr examples		
+    int a = 37;
+    int *ptr = &a;
+    
+    cout<<"a:"<<a<<endl;
+    cout<<"ptr:"<<ptr<<endl;
+    cout<<"&a:"<<&a<<endl;
+    cout<<"*ptr:"<<*ptr<<endl;
+    cout<<"&ptr:"<<&ptr<<endl;
+    //
     		
 	Cow my_cow("patito",5,meat);
-	cout<<my_cow.getName()<<'-'<<my_cow.getAge()<<'-'<<(int)my_cow.getPurpose()<<'-';
+	cout<<my_cow.getName()<<'-'<<my_cow.getAge()<<'-'<<(int)my_cow.getPurpose()<<'-'<<endl;
+	
+	Cow *otra = new Cow("vquita",8,hide);
+	cout<<otra->getName()<<'-'<<otra->getAge()<<'-'<<(int)otra->getPurpose()<<'-'<<endl;
+	
+	delete otra;
 	return 0;
 }
