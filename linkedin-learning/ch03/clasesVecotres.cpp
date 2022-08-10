@@ -41,11 +41,27 @@ int main(){
 	auto tmp = vaquitas.begin();
 	
 	cout<<tmp->getName()<<'-'<<tmp->getAge()<<'-'<<(int)tmp->getPurpose()<<'-'<<endl;
-	cout<<"recorrer"<<endl;
+	cout<<"recorrer for"<<endl;
 	for(auto corre = vaquitas.begin(); corre!=vaquitas.end();corre++){
 		cout<<corre->getName()<<'-'<<corre->getAge()<<'-'<<(int)corre->getPurpose()<<'-'<<endl;
 	}
+	//con while
+	cout<<"recorrer while"<<endl;
+	vector<Cow>::iterator ptr = vaquitas.begin();
 	
+	while(ptr!=vaquitas.end()){
+		cout<<ptr->getName()<<'-'<<ptr->getAge()<<'-'<<(int)ptr->getPurpose()<<'-'<<endl;
+		ptr=next(ptr,1);
+	}
+	
+	//con do while
+	cout<<"recorrer do while"<<endl;
+	int i=0;
+	
+	do{
+		cout<<vaquitas[i].getName()<<'-'<<vaquitas[i].getAge()<<'-'<<(int)vaquitas[i].getPurpose()<<'-'<<endl;
+		i++;
+	}while(i<vaquitas.size());
 	
 	return 0;
 }
