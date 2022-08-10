@@ -63,5 +63,12 @@ int main(){
 		i++;
 	}while(i<vaquitas.size());
 	
+	//con for each
+	cout<<"recorrer dfor each"<<endl;
+	for(auto v:vaquitas){
+		cout<<v.getName()<<'-'<<v.getAge()<<'-'<<(int)v.getPurpose()<<'-'<<endl;
+	}
+	
+	
 	return 0;
 }
